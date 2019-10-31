@@ -1,4 +1,4 @@
-package com.example.tictactoe;
+package com.example.tictactoe2;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
             }
         }
-
 
         if(win)
             return playerValue;
